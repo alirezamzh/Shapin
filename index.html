@@ -1,0 +1,683 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"
+    />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>فروشگاه زنجیره ای شاپین</title>
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="css/owl.carousel.css" />
+    <link rel="stylesheet" href="css/owl.theme.default.min.css" />
+    <link rel="stylesheet" href="css/fontiran.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <div class="login">
+      <div class="login-box">
+        <form action="#">
+          <div class="login-box__head">
+            <h3>ورود به سایت</h3>
+            <span id="close-login-box">بستن</span>
+          </div>
+          <hr />
+          <div class="login-box__section">
+            <div class="input-group">
+              <label for="username">
+                <i class="fa fa-user"> نام کاربری</i>
+              </label>
+              <input
+                type="text"
+                name="username"
+                id="username"
+                placeholder="نام کاربری خود را وارد کنید"
+              />
+            </div>
+            <div class="input-group">
+              <label for="password">
+                <i class="fa fa-key"> رمز ورود</i>
+              </label>
+              <input
+                type="password"
+                name="password"
+                id="password"
+                placeholder="رمز ورود خود را وارد کنید"
+              />
+            </div>
+          </div>
+          <div class="login-box__footer">
+            <button type="submit" name="button">ورود</button>
+            <a href="#">رمز ورود خود را فراموش کرده‌اید؟</a>
+          </div>
+        </form>
+      </div>
+    </div>
+    <header>
+      <nav class="navigation">
+        <ul class="nav__right">
+          <li class="logo"><a href="#">فروشگاه زنجیره ای شاپین</a></li>
+          <li><a href="#">ثبت نام در سایت</a></li>
+          <li><a href="#" id="open-login-box">ورود به سایت</a></li>
+        </ul>
+        <ul class="nav__left">
+          <li><a href="#">محصولات ویژه</a></li>
+          <li><a href="#">تخفیف ها</a></li>
+          <li><a href="#">راهنما</a></li>
+        </ul>
+      </nav>
+      <div class="head-section">
+        <div class="head__right">
+          <div class="sh-dropdown-wrapper">
+            <a href="#" class="sh-dropdown-trigger">
+              <i class="fa fa-sort-desc"></i>
+              منو محصولات
+            </a>
+            <nav class="dropdown">
+              <ul class="dropdown-content">
+                <li>
+                  <form action="#">
+                    <input
+                      type="text"
+                      class="dropdown-content__search"
+                      placeholder="جستجو..."
+                    />
+                  </form>
+                </li>
+                <li class="has-children">
+                  <a href="#" class="is-active">
+                    کالای دیجیتال
+                    <i class="fa fa-angle-left"></i>
+                  </a>
+                </li>
+                <li class="has-children">
+                  <a href="#">
+                    گالری تصاویر
+                    <i class="fa fa-angle-left"></i>
+                  </a>
+                </li>
+                <li class="has-children">
+                  <a href="#"
+                    >سرویس ها
+                    <i class="fa fa-angle-left"></i>
+                  </a>
+                </li>
+                <li class="divi">دسترسی سریع</li>
+                <li><a href="#">صفحه اول </a></li>
+                <li><a href="#">صفحه دوم</a></li>
+                <li><a href="#">صفحه سوم</a></li>
+              </ul>
+            </nav>
+          </div>
+          <form class="search" action="#">
+            <div class="form-group">
+              <input
+                type="text"
+                placeholder="جستجونام ، کالا یا دسته بندی کالا"
+              />
+              <button type="submit">
+                <i class="fa fa-search"></i>
+              </button>
+            </div>
+          </form>
+        </div>
+        <div class="head__left">
+          <a href="#" class="cart">
+            <i class="fa fa-shopping-cart"></i>
+            سبد خرید
+            <span>۲</span>
+          </a>
+        </div>
+      </div>
+      <div id="Slider-ss" class="special-suggest">
+        <div
+          class="special-suggest__item"
+          style="background:url(img/img.png) no-repeat 50% 50%"
+        >
+          <div class="special-suggest__item-info">
+            <button class="btn btn__green">
+              <a href="#">مشخصات محصول</a>
+            </button>
+            <div class="special-suggest__item-section">
+              <div class="special-suggest__item-title">
+                آیفون ۱۲۸ گیگابایتی
+              </div>
+              <div class="special-suggest__item-price">
+                <span>۳,۰۰۰,۰۰۰</span> تومان
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="special-suggest__item"
+          style="background:url(img/img.png) no-repeat 50% 50%"
+        >
+          <div class="special-suggest__item-info">
+            <button class="btn btn__green">
+              <a href="#">مشخصات محصول</a>
+            </button>
+            <div class="special-suggest__item-section">
+              <div class="special-suggest__item-title">
+                آیفون ۱۲۸ گیگابایتی
+              </div>
+              <div class="special-suggest__item-price">
+                <span>۳,۰۰۰,۰۰۰</span> تومان
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="special-suggest__item"
+          style="background:url(img/img.png) no-repeat 50% 50%"
+        >
+          <div class="special-suggest__item-info">
+            <button class="btn btn__green">
+              <a href="#">مشخصات محصول</a>
+            </button>
+            <div class="special-suggest__item-section">
+              <div class="special-suggest__item-title">
+                آیفون ۱۲۸ گیگابایتی
+              </div>
+              <div class="special-suggest__item-price">
+                <span>۳,۰۰۰,۰۰۰</span> تومان
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <section id="main">
+      <div class="row product-section">
+        <div class="product-section__head">
+          <h3 class="product-section__head-title">پیشنهاد ویژه</h3>
+          <span><a href="#">مشاهده لیست کامل</a></span>
+        </div>
+        <section id="product-special-suggest" class="product-section__content">
+          <article class="product-section__content-box">
+            <a href="#" class="product__image">
+              <img src="img/img2.jpg" alt="محصول" />
+            </a>
+            <div class="product__info">
+              <a href="#">هارد دیسک اکسترنال...</a>
+              <span class="product__discount">۶۰,۰۰۰ تومان</span>
+              <span class="product__orginal">۴۵,۰۰۰ تومان</span>
+            </div>
+          </article>
+          <article class="product-section__content-box">
+            <a href="#" class="product__image">
+              <img src="img/img2.jpg" alt="محصول" />
+            </a>
+            <div class="product__info">
+              <a href="#">هارد دیسک اکسترنال...</a>
+              <span class="product__discount">۶۰,۰۰۰ تومان</span>
+              <span class="product__orginal">۴۵,۰۰۰ تومان</span>
+            </div>
+          </article>
+          <article class="product-section__content-box">
+            <a href="#" class="product__image">
+              <img src="img/img2.jpg" alt="محصول" />
+            </a>
+            <div class="product__info">
+              <a href="#">هارد دیسک اکسترنال...</a>
+              <span class="product__discount">۶۰,۰۰۰ تومان</span>
+              <span class="product__orginal">۴۵,۰۰۰ تومان</span>
+            </div>
+          </article>
+          <article class="product-section__content-box">
+            <a href="#" class="product__image">
+              <img src="img/img2.jpg" alt="محصول" />
+            </a>
+            <div class="product__info">
+              <a href="#">هارد دیسک اکسترنال...</a>
+              <span class="product__discount">۶۰,۰۰۰ تومان</span>
+              <span class="product__orginal">۴۵,۰۰۰ تومان</span>
+            </div>
+          </article>
+          <article class="product-section__content-box">
+            <a href="#" class="product__image">
+              <img src="img/img2.jpg" alt="محصول" />
+            </a>
+            <div class="product__info">
+              <a href="#">هارد دیسک اکسترنال...</a>
+              <span class="product__discount">۶۰,۰۰۰ تومان</span>
+              <span class="product__orginal">۴۵,۰۰۰ تومان</span>
+            </div>
+          </article>
+          <article class="product-section__content-box">
+            <a href="#" class="product__image">
+              <img src="img/img2.jpg" alt="محصول" />
+            </a>
+            <div class="product__info">
+              <a href="#">هارد دیسک اکسترنال...</a>
+              <span class="product__discount">۶۰,۰۰۰ تومان</span>
+              <span class="product__orginal">۴۵,۰۰۰ تومان</span>
+            </div>
+          </article>
+        </section>
+      </div>
+      <Div class="row banner-box">
+        <div class="banner-box__section">
+          <a href="#"><img src="img/Layer-16.png" alt="بخش محصولات"/></a>
+          <a href="#"><img src="img/Layer-17.png" alt="بخش محصولات"/></a>
+          <a href="#"><img src="img/Layer-18.png" alt="بخش محصولات"/></a>
+          <a href="#"><img src="img/Layer-20.png" alt="بخش محصولات"/></a>
+        </div>
+        <div class="banner-box__section">
+          <a href="#"><img src="img/Layer-20.png" alt="بخش محصولات"/></a>
+          <a href="#"><img src="img/Layer-21.png" alt="بخش محصولات"/></a>
+          <a href="#"><img src="img/Layer-22.png" alt="بخش محصولات"/></a>
+          <a href="#"><img src="img/Layer-19.png" alt="بخش محصولات"/></a>
+        </div>
+      </Div>
+      <div class="row product-section">
+        <div class="product-section__head-center">
+          <h3 class="product-section__head-title__center">پرفروش ترین ها</h3>
+          <div class="product-section__head-description">
+            در این قسمت پرفروش ترین محصولاتی که توسط کابران خریداری شده از تمامی
+            دسته بندی سایت در زیر قرار گرفته و همیشه بروز میشود
+          </div>
+        </div>
+        <div class="product-section__nav">
+          <div class="product-section__nav-btn">
+            <button class="next" id="best-sellers__next">
+              <i class="fa fa-chevron-right"></i>
+            </button>
+            <button class="prev" id="best-sellers__prev">
+              <i class="fa fa-chevron-left"></i>
+            </button>
+          </div>
+          <span><a href="#">مشاهده لیست کامل</a></span>
+        </div>
+        <section id="best-sellers" class="product-section__content">
+          <article class="product-section__content-box">
+            <a href="#" class="product__image">
+              <img src="img/img2.jpg" alt="محصول" />
+            </a>
+            <div class="product__info">
+              <a href="#">هارد دیسک اکسترنال...</a>
+              <span class="product__discount">۶۰,۰۰۰ تومان</span>
+              <span class="product__orginal">۴۵,۰۰۰ تومان</span>
+            </div>
+          </article>
+          <article class="product-section__content-box">
+            <a href="#" class="product__image">
+              <img src="img/img2.jpg" alt="محصول" />
+            </a>
+            <div class="product__info">
+              <a href="#">هارد دیسک اکسترنال...</a>
+              <span class="product__discount">۶۰,۰۰۰ تومان</span>
+              <span class="product__orginal">۴۵,۰۰۰ تومان</span>
+            </div>
+          </article>
+          <article class="product-section__content-box">
+            <a href="#" class="product__image">
+              <img src="img/img2.jpg" alt="محصول" />
+            </a>
+            <div class="product__info">
+              <a href="#">هارد دیسک اکسترنال...</a>
+              <span class="product__discount">۶۰,۰۰۰ تومان</span>
+              <span class="product__orginal">۴۵,۰۰۰ تومان</span>
+            </div>
+          </article>
+          <article class="product-section__content-box">
+            <a href="#" class="product__image">
+              <img src="img/img2.jpg" alt="محصول" />
+            </a>
+            <div class="product__info">
+              <a href="#">هارد دیسک اکسترنال...</a>
+              <span class="product__discount">۶۰,۰۰۰ تومان</span>
+              <span class="product__orginal">۴۵,۰۰۰ تومان</span>
+            </div>
+          </article>
+          <article class="product-section__content-box">
+            <a href="#" class="product__image">
+              <img src="img/img2.jpg" alt="محصول" />
+            </a>
+            <div class="product__info">
+              <a href="#">هارد دیسک اکسترنال...</a>
+              <span class="product__discount">۶۰,۰۰۰ تومان</span>
+              <span class="product__orginal">۴۵,۰۰۰ تومان</span>
+            </div>
+          </article>
+          <article class="product-section__content-box">
+            <a href="#" class="product__image">
+              <img src="img/img2.jpg" alt="محصول" />
+            </a>
+            <div class="product__info">
+              <a href="#">هارد دیسک اکسترنال...</a>
+              <span class="product__discount">۶۰,۰۰۰ تومان</span>
+              <span class="product__orginal">۴۵,۰۰۰ تومان</span>
+            </div>
+          </article>
+          <article class="product-section__content-box">
+            <a href="#" class="product__image">
+              <img src="img/img2.jpg" alt="محصول" />
+            </a>
+            <div class="product__info">
+              <a href="#">هارد دیسک اکسترنال...</a>
+              <span class="product__discount">۶۰,۰۰۰ تومان</span>
+              <span class="product__orginal">۴۵,۰۰۰ تومان</span>
+            </div>
+          </article>
+          <article class="product-section__content-box">
+            <a href="#" class="product__image">
+              <img src="img/img2.jpg" alt="محصول" />
+            </a>
+            <div class="product__info">
+              <a href="#">هارد دیسک اکسترنال...</a>
+              <span class="product__discount">۶۰,۰۰۰ تومان</span>
+              <span class="product__orginal">۴۵,۰۰۰ تومان</span>
+            </div>
+          </article>
+          <article class="product-section__content-box">
+            <a href="#" class="product__image">
+              <img src="img/img2.jpg" alt="محصول" />
+            </a>
+            <div class="product__info">
+              <a href="#">هارد دیسک اکسترنال...</a>
+              <span class="product__discount">۶۰,۰۰۰ تومان</span>
+              <span class="product__orginal">۴۵,۰۰۰ تومان</span>
+            </div>
+          </article>
+        </section>
+      </div>
+      <div class="comment-section">
+        <div class="comment-section__head">
+          <div class="content">
+            <h3>نقد محصولات</h3>
+            <p>
+              در این بخش نقد آخرین محصولات قرار میگرد تا شما بتوانید با دقت
+              بیشتری محصولات خود را انتخاب کنید یا از خرید خود مطمئن شوید
+            </p>
+            <a href="#">مشاهده همه ی نقدها</a>
+          </div>
+        </div>
+        <div class="comment-section__content">
+          <Div class="comment-box">
+            <h2 class="comment-box__title">نقد موبایل نوت 7</h2>
+            <hr />
+            <p class="comment-box__description">
+              لورم ایپسوم یا طرح‌نما (به انگلیسی: Lorem ipsum) به متنی آزمایشی و
+              بی‌معنی در صنعت چاپ، صفحه‌آرایی و طراحی گرافیک گفته می‌شود. طراح
+              گرافیک از این متن به عنوان عنصری از ترکیب بندی برای پر کردن صفحه و
+              ارایه اولیه شکل ظاهری و کلی طرح سفارش گرفته شده استفاده می نماید،
+              تا از نظر گرافیکی نشانگر چگونگی نوعبه مشتری یا صاحب کار خود نشان
+              دهند ...
+            </p>
+          </Div>
+          <Div class="comment-box">
+            <h2>نقد موبایل نوت 7</h2>
+            <hr />
+            <p class="comment-box__description">
+              لورم ایپسوم یا طرح‌نما (به انگلیسی: Lorem ipsum) به متنی آزمایشی و
+              بی‌معنی در صنعت چاپ، صفحه‌آرایی و طراحی گرافیک گفته می‌شود. طراح
+              گرافیک از این متن به عنوان عنصری از ترکیب بندی برای پر کردن صفحه و
+              ارایه اولیه شکل ظاهری و کلی طرح سفارش گرفته شده استفاده می نماید،
+              تا از نظر گرافیکی نشانگر چگونگی نوعبه مشتری یا صاحب کار خود نشان
+              دهند ...
+            </p>
+          </Div>
+          <Div class="comment-box">
+            <h2>نقد موبایل نوت 7</h2>
+            <hr />
+            <p class="comment-box__description">
+              لورم ایپسوم یا طرح‌نما (به انگلیسی: Lorem ipsum) به متنی آزمایشی و
+              بی‌معنی در صنعت چاپ، صفحه‌آرایی و طراحی گرافیک گفته می‌شود. طراح
+              گرافیک از این متن به عنوان عنصری از ترکیب بندی برای پر کردن صفحه و
+              ارایه اولیه شکل ظاهری و کلی طرح سفارش گرفته شده استفاده می نماید،
+              تا از نظر گرافیکی نشانگر چگونگی نوعبه مشتری یا صاحب کار خود نشان
+              دهند ...
+            </p>
+          </Div>
+          <Div class="comment-box">
+            <h2>نقد موبایل نوت 7</h2>
+            <hr />
+            <p class="comment-box__description">
+              لورم ایپسوم یا طرح‌نما (به انگلیسی: Lorem ipsum) به متنی آزمایشی و
+              بی‌معنی در صنعت چاپ، صفحه‌آرایی و طراحی گرافیک گفته می‌شود. طراح
+              گرافیک از این متن به عنوان عنصری از ترکیب بندی برای پر کردن صفحه و
+              ارایه اولیه شکل ظاهری و کلی طرح سفارش گرفته شده استفاده می نماید،
+              تا از نظر گرافیکی نشانگر چگونگی نوعبه مشتری یا صاحب کار خود نشان
+              دهند ...
+            </p>
+          </Div>
+        </div>
+      </div>
+      <div class="row product-section">
+        <div class="product-section__head-center">
+          <h3 class="product-section__head-title__center">جدیدترین ها</h3>
+          <div class="product-section__head-description">
+            در این قسمت پرفروش ترین محصولاتی که توسط کابران خریداری شده از تمامی
+            دسته بندی سایت در زیر قرار گرفته و همیشه بروز میشود
+          </div>
+        </div>
+        <div class="product-section__nav">
+          <div class="product-section__nav-btn">
+            <button class="next" id="new-product__next">
+              <i class="fa fa-chevron-right"></i>
+            </button>
+            <button class="prev" id="new-product__prev">
+              <i class="fa fa-chevron-left"></i>
+            </button>
+          </div>
+          <span><a href="#">مشاهده لیست کامل</a></span>
+        </div>
+        <section id="new-product" class="product-section__content">
+          <article class="product-section__content-box">
+            <a href="#" class="product__image">
+              <img src="img/img2.jpg" alt="محصول" />
+            </a>
+            <div class="product__info">
+              <a href="#">هارد دیسک اکسترنال...</a>
+              <span class="product__discount">۶۰,۰۰۰ تومان</span>
+              <span class="product__orginal">۴۵,۰۰۰ تومان</span>
+            </div>
+          </article>
+          <article class="product-section__content-box">
+            <a href="#" class="product__image">
+              <img src="img/img2.jpg" alt="محصول" />
+            </a>
+            <div class="product__info">
+              <a href="#">هارد دیسک اکسترنال...</a>
+              <span class="product__discount">۶۰,۰۰۰ تومان</span>
+              <span class="product__orginal">۴۵,۰۰۰ تومان</span>
+            </div>
+          </article>
+          <article class="product-section__content-box">
+            <a href="#" class="product__image">
+              <img src="img/img2.jpg" alt="محصول" />
+            </a>
+            <div class="product__info">
+              <a href="#">هارد دیسک اکسترنال...</a>
+              <span class="product__discount">۶۰,۰۰۰ تومان</span>
+              <span class="product__orginal">۴۵,۰۰۰ تومان</span>
+            </div>
+          </article>
+          <article class="product-section__content-box">
+            <a href="#" class="product__image">
+              <img src="img/img2.jpg" alt="محصول" />
+            </a>
+            <div class="product__info">
+              <a href="#">هارد دیسک اکسترنال...</a>
+              <span class="product__discount">۶۰,۰۰۰ تومان</span>
+              <span class="product__orginal">۴۵,۰۰۰ تومان</span>
+            </div>
+          </article>
+          <article class="product-section__content-box">
+            <a href="#" class="product__image">
+              <img src="img/img2.jpg" alt="محصول" />
+            </a>
+            <div class="product__info">
+              <a href="#">هارد دیسک اکسترنال...</a>
+              <span class="product__discount">۶۰,۰۰۰ تومان</span>
+              <span class="product__orginal">۴۵,۰۰۰ تومان</span>
+            </div>
+          </article>
+          <article class="product-section__content-box">
+            <a href="#" class="product__image">
+              <img src="img/img2.jpg" alt="محصول" />
+            </a>
+            <div class="product__info">
+              <a href="#">هارد دیسک اکسترنال...</a>
+              <span class="product__discount">۶۰,۰۰۰ تومان</span>
+              <span class="product__orginal">۴۵,۰۰۰ تومان</span>
+            </div>
+          </article>
+          <article class="product-section__content-box">
+            <a href="#" class="product__image">
+              <img src="img/img2.jpg" alt="محصول" />
+            </a>
+            <div class="product__info">
+              <a href="#">هارد دیسک اکسترنال...</a>
+              <span class="product__discount">۶۰,۰۰۰ تومان</span>
+              <span class="product__orginal">۴۵,۰۰۰ تومان</span>
+            </div>
+          </article>
+          <article class="product-section__content-box">
+            <a href="#" class="product__image">
+              <img src="img/img2.jpg" alt="محصول" />
+            </a>
+            <div class="product__info">
+              <a href="#">هارد دیسک اکسترنال...</a>
+              <span class="product__discount">۶۰,۰۰۰ تومان</span>
+              <span class="product__orginal">۴۵,۰۰۰ تومان</span>
+            </div>
+          </article>
+          <article class="product-section__content-box">
+            <a href="#" class="product__image">
+              <img src="img/img2.jpg" alt="محصول" />
+            </a>
+            <div class="product__info">
+              <a href="#">هارد دیسک اکسترنال...</a>
+              <span class="product__discount">۶۰,۰۰۰ تومان</span>
+              <span class="product__orginal">۴۵,۰۰۰ تومان</span>
+            </div>
+          </article>
+        </section>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="customer-service">
+        <h3>خدمات مشتری</h3>
+        <hr />
+        <a href="#" class="customer-service__item">پاسخ به پرسش های متداول</a>
+        <a href="#" class="customer-service__item">رویه های بازگرداندن کالا</a>
+        <a href="#" class="customer-service__item">شرایط استفاده</a>
+        <a href="#" class="customer-service__item">حریم خصوصی</a>
+      </div>
+      <div class="newsletter">
+        <h3>ثبت نام در خبرنامه شاپین</h3>
+        <hr />
+        <p>
+          با ثبت نام در خبرنامه شاپین ، اولین نفری باشید که از جدیدترین محصولات،
+          جشنواره ها و فروش‌های ویژه ما مطلع می شوید.
+        </p>
+        <Form action="#">
+          <input type="text" placeholder="آدرس ایمیل شما" />
+          <button type="submit">ثبت ایمیل</button>
+        </Form>
+      </div>
+      <div class="more-info-site">
+        <div class="more-info-site__head">
+          <h3>اطلاعات شاپین</h3>
+          <span>پشتیبانی</span>
+          <span>(۰۱۱) ۳۳۳۳۳۳۳</span>
+        </div>
+        <hr />
+        <Div class="more-info-site__section">
+          <div class="more-info-site__section-right">
+            <a href="#">تماس با ما</a>
+            <a href="#">درباره ما</a>
+          </div>
+          <div class="more-info-site__section-left">
+            <a href="#">
+              <i class="fa fa-instagram"></i>
+            </a>
+            <a href="#">
+              <i class="fa fa-twitter-square"></i>
+            </a>
+            <a href="#">
+              <i class="fa fa-facebook-square"></i>
+            </a>
+            <a href="#">
+              <i class="fa fa-google-plus-square"></i>
+            </a>
+          </div>
+        </Div>
+      </div>
+    </footer>
+    <script src="js/jquery-1.9.1.min.js"></script>
+    <script src="js/jquery.menu-aim.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script type="text/javascript">
+      var SliderSS = $("#Slider-ss");
+      var SpecialSuggest = $("#product-special-suggest");
+      var BestSeller = $("#best-sellers");
+      var NewProduct = $("#new-product");
+
+      var owlObject = {
+        rtl: true,
+        margin: 10,
+        dots: false,
+        responsive: {
+          0: {
+            items: 1
+          },
+          600: {
+            items: 3
+          },
+          1000: {
+            items: 4
+          },
+          1200: {
+            items: 6
+          }
+        }
+      };
+      BestSeller.owlCarousel(owlObject);
+      SpecialSuggest.owlCarousel(owlObject);
+      NewProduct.owlCarousel(owlObject);
+
+      SliderSS.owlCarousel({
+        rtl: true,
+        items: 1,
+        loop: true,
+        autoplay: true,
+        autoplayTimeout: 3000,
+        autoplayHoverPause: true
+      });
+      $("#best-sellers__next").click(function() {
+        BestSeller.trigger("next.owl.carousel");
+      });
+      $("#best-sellers__prev").click(function() {
+        BestSeller.trigger("prev.owl.carousel");
+      });
+      $("#new-product__next").click(function() {
+        NewProduct.trigger("next.owl.carousel");
+      });
+      $("#new-product__prev").click(function() {
+        NewProduct.trigger("prev.owl.carousel");
+      });
+      $("#open-login-box").click(function() {
+        $(".login").addClass("login-show");
+        $("body").addClass("stop-scrolling");
+      });
+      $("#close-login-box").click(function() {
+        $(".login").removeClass("login-show");
+        $("body").removeClass("stop-scrolling");
+      });
+      $(".login").click(function(e) {
+        console.log(e);
+        if (e.target !== this) return;
+        $(".login").removeClass("login-show");
+        $("body").removeClass("stop-scrolling");
+      });
+    </script>
+  </body>
+</html>
